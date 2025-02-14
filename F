@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revista Digital</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Revista Digital</h1>
+        <nav>
+            <ul>
+                <li><a href="#nacionales">Nacionales</a></li>
+                <li><a href="#internacionales">Internacionales</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="nacionales" class="section">
+        <h2>Noticias Nacionales</h2>
+        <article>
+            <img src="img/nacional1.jpg" alt="Noticia Nacional">
+            <h3>Título de la Noticia</h3>
+            <p>Descripción breve de la noticia nacional.</p>
+        </article>
+    </section>
+    
+    <section id="internacionales" class="section">
+        <h2>Noticias Internacionales</h2>
+        <article>
+            <img src="img/internacional1.jpg" alt="Noticia Internacional">
+            <h3>Título de la Noticia</h3>
+            <p>Descripción breve de la noticia internacional.</p>
+        </article>
+    </section>
+</body>
+</html>
